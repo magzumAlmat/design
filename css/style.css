@@ -1,0 +1,195 @@
+/*body{}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open>.dropdown-toggle.btn-warning {
+    color: #fff;
+    background-color: #00b3db;
+    border-color: #FF853C;
+; /*set the color you want here*/
+}
+
+
+
+
+.input:checked:before{
+background-color:green;
+}
+
+
+
+.header{position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+height:75px
+
+background: #FFFFFF;}
+
+
+
+.sNamiUdobnee{
+	position: absolute;
+width: 140px;
+height: 27px;
+left: 261px;
+top: 24px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 125%;
+
+display: flex;
+align-items: center;
+
+color: #0A142F;
+
+}*/
+body {
+  align-items: center;
+  padding-bottom: 40px;
+  background-color:#FFFFFF;
+
+}
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Ultra Light'), local('Gilroy-Ultra-Light'),
+        url('Gilroy-UltraLight.woff2') format('woff2'),
+        url('Gilroy-UltraLight.woff') format('woff'),
+        url('Gilroy-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+
+.padding36px{padding: 36px}
+
+  .mainShadow{
+    border: 2px solid rgba(0,0,0,.125); background: #FFFFFF;    border: .01rem solid #e0e1ed; color: #585CA1;
+  }
+  .gilroy16Header{
+    font-size: 16px;font-family: 'Gilroy';    font-weight: 400; color:#0A142F;line-height: 20px;align-items: center;
+  }
+
+
+  .gilroy18{
+    font-family: 'Gilroy'; font-weight: 600; font-style: normal;font-size: 18px; color:#6C757D; line-height: 20px; 
+  }
+
+  .gilroy18Line-height50{
+    font-family: 'Gilroy'; font-weight: 500; font-style: normal;font-size: 20px; color:#6C757D; line-height: 21px; 
+  }
+
+
+ .gilroy16{
+    font-family: 'Gilroy';
+     font-weight: 600;
+     font-style: normal;
+     font-size: 16px; 
+     color:#6C757D; 
+     line-height: 20px; 
+  }
+
+  .gilroy16500{
+    font-family: 'Gilroy';
+     font-weight: 500;
+     font-style: normal;
+     font-size: 16px; 
+     color:#6C757D; 
+     line-height: 20px; 
+  }
+
+
+  .gilroy16Tel{
+    font-family: 'Gilroy'; font-weight: 600; font-style: normal;font-size: 16px; color:#FDA700; line-height: 20px; align-items: center;margin: 2% 0 0 0 ;padding-left: 44px;
+  }
+
+ .gilroy20{
+    font-family: 'Gilroy'; font-weight: 600; font-style: normal;font-size: 20px; color:#0A142F; line-height: 20px; 
+  }
+
+ .gilroy14{
+ font-family: 'Gilroy'; font-weight: 600; font-style: normal;font-size: 20px; color:#0A142F; line-height: 14px; }
+ 
+
+ .gilroy14400{
+ font-family: 'Gilroy'; font-weight: 400; font-style: normal;font-size: 14px; color:#0A142F; line-height: 14px; }
+ 
+.gilroy14Auth{
+  font-family: 'Gilroy';    font-weight: 500;    font-style: normal;font-size: 14px;color:#6C757D;
+                  line-height: 16.98px;
+}
+
+
+
+.gilroy16Orange{font-family: 'Gilroy'; font-weight: 600; font-style: normal;font-size: 16px; color:#FF853C;
+; line-height: 18px; }
+
+ .gilroy14Orange{
+ font-family: 'Gilroy'; font-weight: 500; font-style: normal;font-size: 14px; color:#FF853C;
+; line-height: 14px; }
+
+
+
+.gilroy18Tap{
+  font-family: 'Gilroy';  
+    font-weight: 600;   
+     font-style: normal;
+     font-size: 18px;
+     color:#FF853C;
+  line-height: 22.05px;
+
+
+}
+
+input::placeholder {
+ font-family: 'Gilroy';
+     font-weight: 500;
+     font-style: normal;
+     font-size: 16px; 
+     color: #0A142F;
+ 
+     line-height: 24px; 
+}
+
+
+.button1 {
+  border: 2px solid #FF853C;
+  background-color: white;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.button1:hover {
+  border: 2px solid #FF853C;
+  background-color: #FF853C;
+
+}
+
+.button1:hover img{  background: url("../images/phoneWhite3.png") no-repeat;}
+
+.orange{color:#FF853C;}
+
+.button1:hover b {
+  border: 2px solid #FF853C;
+  color:white;
+}
+
+.button1:hover span {
+  border: 2px solid #FF853C;
+  color:white;
+}
+
+.button2:hover {
+  border: 2px solid #FF853C;
+  background-color: #FF853C;
+}
+.button3:hover {
+  border: 2px solid #FF853C;
+  background-color: #FF853C;
+}
+
+
+

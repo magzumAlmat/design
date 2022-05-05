@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en" class="h-100">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title></title>
+      <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sticky-footer/">
+      <!-- Bootstrap core CSS -->
+      <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom styles for this template -->
+      <link href="../css/sticky-footer.css" rel="stylesheet">
+      <link href="../css/style.css" rel="stylesheet">
+      <link href="../fonts/stylesheet.css" rel="stylesheet"/>
+      <link href="../css/signin.css" rel="stylesheet"/>
+      <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sticky-footer/">
+      <link href="../css/style.css" rel="stylesheet">
+   </head>
+   <body class="d-flex flex-column h-100">
+      <!-- начало блока нхэдера -->
+      <div class='container font-container' style="align-self: bottom">
+         <img src="../images/logo1.png" style="padding-right: 44px">
+         <img src="../images/linee.png" style="padding-right: 44px" >
+         <span class="gilroy16Header " style="" >С нами удобнее</span>
+         <span class="s16 float-end gilroy16Tel" style="" >
+         <button class="w-100  btn button1 " type="submit" style="">
+         <img src="../images/phone.png"  >
+         <b  class="orange" style="" >+ 7 747 437 0806</b>
+         </button>
+         </span>
+         <hr style="margin: 0rem;color:#7E97AA" />
+      </div>
+
+
+      <!--конец блока хэдера -->
+      <main class="form-signin  font-container shadow-lg mainshadow" style=""  >
+        <!--  <ul class="nav nav-tabs" id="myTab" role="tablist" style="justify-content: center;">
+            <li class="nav-item" role="presentation">
+               <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true" style="background-color:#FF853C0F;border-color: #ff853c;border-style: double;">
+               <span class="mb-2 gilroy18Tap" style=" " >
+               Авторизоваться
+               </span>
+               </button>
+            </li>
+            <li class="nav-item" role="presentation">
+               <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+               <span class="s29 mb-2 px-4 gilroy14Auth" style=" " >
+               Зарегестрироваться
+               </span>
+               </button>
+            </li>
+         </ul> -->
+          <ul class="nav nav-tabs" id="myTab" role="tablist" style=" justify-content: center;">
+            <li class="nav-item" role="presentation">
+               <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true" style="    width: 11.1rem;">
+               <span class="s29 mb-2 " style=" font-family: 'Gilroy';    font-weight: 600;  
+                 font-style: normal;
+                 font-size: 18px;color: #6C757D;line-height: 20px;
+                    " >
+               Авторизоваться
+               </span>
+               </button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+               <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"
+               style="background-color:#FF853C0F;border-color: #ff853c;border-style: double;width: 18.9rem;">
+               <span class="s29 mb-2 px-4 " style=" font-family: 'Gilroy';    font-weight: 500;    font-style: normal;f font-size: 18px!important;color: #FF853C;
+line-height: 22px;align-self: center;" >
+               Зарегестрироваться
+               </span>
+               </button>
+            </li>
+         </ul>
+
+
+         <div class="tab-content padding36px" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+             <form>
+                  <p class="s29" style=" padding: 24px 0 0px 0px; font-family: 'Gilroy';    font-weight: 500;    font-style: normal;font-size: 16px; color:#0A142F;line-height: 20px;align-items: center;margin: 0% 0 0 0;" >Номер телефона
+                  </p>
+                  <div class="form-floating" style="padding:12px 0 0 0; font-family: 'Gilroy';    font-weight: 400;    font-style: normal;font-size: 16px; color:#0A142F;line-height: 20px;align-items: center;">
+                     <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="+7 7__ ___ __ __" aria-label="+7 7__ ___ __ __" aria-describedby="basic-addon2"/>
+                     </div>
+                  </div>
+                  <p class="s29" style=" padding: 24px 0 0px 0px; font-family: 'Gilroy';    font-weight: 500;    font-style: normal;font-size: 16px; color:#0A142F;line-height: 20px;align-items: center;margin: 0% 0 0 0;" >Пароль
+                  </p>
+                  <div class="form-floating" style="padding:12px 0 0 0; font-family: 'Gilroy';    font-weight: 400;    font-style: normal;font-size: 16px; color:#0A142F;
+                     line-height: 20px;align-items: center;">
+                     <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Введите ваш пароль" aria-label="Введите ваш пароль" aria-describedby="basic-addon2"/>
+                     </div>
+                  </div>
+                  <div class="form-check mb-3">
+                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                     <label class="form-check-label" for="flexCheckDefault">
+                     Не выходить из системы
+                     </label>
+                  </div>
+                  <button class="w-100 btn btn-lg text-light" type="submit" style="background: #FF853C;">Войти в систему</button>
+                  <div style="margin: 5% 0 0 0;">
+                     <a class="gilroy14Orange" style="">Забыли пароль?</a>
+                  </div>
+               </form>
+            </div>
+
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+               <form>
+                  <p class="s29" style=" padding: 24px 0 0px 0px; font-family: 'Gilroy';    font-weight: 500;    font-style: normal;font-size: 16px; color:#0A142F;line-height: 20px;align-items: center;" >Номер телефона
+                  </p>
+                  <div class="form-floating" style="padding:12px 0 0 0; font-family: 'Gilroy';    font-weight: 400;    font-style: normal;font-size: 16px; color:#0A142F;line-height: 20px;align-items: center;">
+                     <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="+7 7__ ___ __ __" aria-label="+7 7__ ___ __ __" aria-describedby="basic-addon2"/>
+                     </div>
+                  </div>
+                  <p class="s29" style=" padding: 24px 0 0px 0px; font-family: 'Gilroy';    font-weight: 500;    font-style: normal;font-size: 16px; color:#0A142F;line-height: 20px;align-items: center;" >Код из смс
+            </p>
+
+
+            <div class="form-floating" style="padding:12px 0 0 0; font-family: 'Gilroy';    font-weight: 400;    font-style: normal;font-size: 16px; color:#0A142F;line-height: 20px;align-items: center;">
+
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="__ __" aria-label="__ __" aria-describedby="basic-addon2"/>
+              </div>
+          
+            </div>
+            
+            
+
+          
+        <!--   <button class="w-100 btn btn-outline-warning text-light" type="submit" style="background: #FF853C;">00:59</button> -->
+           <span class="s16" style="font-family: 'Gilroy'; font-weight: 600; font-style: normal;font-size: 16px; color:#FDA700; line-height: 20px; align-items: center;" >
+       
+             <button class="w-100 btn button1   " type="submit" style="border-color: #FF853C; border: none">
+             
+              <b style="color:#FF853C;"><span style="">00:00</span></b>
+            </button>
+        </span>
+
+
+
+
+         <!--  <span class="mt-1 mb-1  text-muted text-center" style="font-family: 'Gilroy'; font-weight: 500; font-style: normal;font-size: 14px;  line-height: 20px; ">Введите код до окончания таймера</span> -->
+
+         
+         <!--  <span class="mt-1 mb-1  text-muted text-center" style="font-family: 'Gilroy'; font-weight: 500; font-style: normal;font-size: 14px;  line-height: 20px; ">Введите код до окончания таймера</span> -->
+
+         <span class="s16" style="font-family: 'Gilroy'; font-weight: 500; font-style: normal;font-size: 18px; color:#FDA700; line-height: 20px; align-items: center;" >
+       
+         <button class="w-100 btn button1  " type="submit" style="border-color: #FF853C;">
+        
+           <b style="color:#FF853C;"><span style="">Отправить код повторно</span></b>
+        </button>
+      
+               </form>
+            </div>
+         </div>
+      </main>
+      <!-- начало блока footer -->
+      <div class='container font-container mt-auto py-3' style="align-self: bottom">
+         <hr style="margin: 0rem;color:#7E97AA" />
+         <span class="s16 " style="font-size: 16px; color:#0A142F;line-height: 19,2px;align-items: center;padding-right: 44px; font-family: 'Gilroy';    font-weight: 400; " >О нас</span>
+         <span class="s16 " style="font-size: 16px; color:#0A142F;line-height: 19,2px;align-items: center;padding-right: 44px ; font-family: 'Gilroy';    font-weight: 400;" >     Пользовательское соглашение</span>
+         <span class="s16 " style="font-size: 16px; color:#0A142F;line-height: 19,2px;align-items: center;padding-right: 44px ; font-family: 'Gilroy';    font-weight: 400;" >Политика кондинециальности</span>
+         <span class="s16 " style="font-size: 16px; color:#0A142F;line-height: 19,2px;align-items: center;padding-right: 44px ; font-family: 'Gilroy';    font-weight: 400;" >FaQ</span>
+         <span class="s16 float-end" style="font-size: 16px; color:#FDA700; line-height: 19,2px; align-items: center ;padding-left: 44px ; font-family: 'Gilroy';    font-weight: 400;" >
+         <img src="../images/Facebook.png"  style="padding-right: 32px" >
+         <img src="../images/Twitter.png"  style="padding-right: 32px" >
+         <img src="../images/Youtube.png"  style="padding-right: 32px" >
+         </span>
+      </div>
+      <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+      <!-- Bootstrap JS -->
+      <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+      <script>
+         // #product a – селектор, выбирающий элементы a, представляющие собой вкладки (при клике на которые нужно отображать соответствующий блок)
+         $('#product a').click(function (e) {
+           e.preventDefault();
+           $(this).tab('show');
+         });
+      </script>
+      </div>
+      </div>
+      <!--конец блока хэдера -->
+      <!-- начало блока footer -->
+      <!--  <div class='container font-container mt-auto py-3' style="align-self: bottom">
+         <span class="s16 " style="font-size: 16px; color:#0A142F;line-height: 20px;align-items: center;padding-right: 44px" >О нас</span>
+         
+         
+         <span class="s16 " style="font-size: 16px; color:#0A142F;line-height: 20px;align-items: center;padding-right: 44px" >Пользовательское соглашение</span>
+          <span class="s16 " style="font-size: 16px; color:#0A142F;line-height: 20px;align-items: center;padding-right: 44px" >Политика кондинециальности</span>
+          <span class="s16 " style="font-size: 16px; color:#0A142F;line-height: 20px;align-items: center;padding-right: 44px" >FaQ</span>
+         <span class="s16 float-end" style="font-size: 16px; color:#FDA700; line-height: 20px; align-items: center ;padding-left: 44px" >
+           <img src="images/Facebook.png"  style="padding-right: 32px" >
+           <img src="images/Twitter.png"  style="padding-right: 32px" >
+           <img src="images/Youtube.png"  style="padding-right: 32px" >
+          
+         </span>
+         
+         </div> -->
+      <!--конец блока footer-->
+   </body>
+</html>
